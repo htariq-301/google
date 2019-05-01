@@ -25,4 +25,13 @@
         android:layout_marginBottom="50dp"
         android:id="@+id/Mic"/>
 
+    <Button
+        android:id="@+id/btnpic"
+        android:layout_width="wrap_content"
+        android:onClick="Takepic"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Mic"
+        android:layout_centerVertical="true"
+        android:text="CLick" />
+
 </RelativeLayout>
